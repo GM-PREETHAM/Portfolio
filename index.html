@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio, Resume and Bio-data of G M Preetham, Computer Science Engineering student at RVITM.">
+  <title>G M Preetham | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="page-loader">
+    <div class="loader-ring"></div>
+  </div>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">GM</span>
+        <span>Preetham</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Bio-data</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">COMPUTER SCIENCE ENGINEERING STUDENT</span>
+        <h1>Hi, I’m <span>G M Preetham.</span><br>I build useful digital experiences.</h1>
+        <p>
+          A Computer Science and Engineering student at RV Institute of Technology and Management,
+          interested in software development, AI/ML and building practical real-world applications.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="resume.html">View Resume</a>
+          <a class="btn secondary" href="projects.html">Explore Projects</a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <strong>BE CSE</strong>
+            <span>RVITM, Bengaluru</span>
+          </div>
+          <div>
+            <strong>2028</strong>
+            <span>Expected Graduation</span>
+          </div>
+          <div>
+            <strong>AI + Web</strong>
+            <span>Primary Interests</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="profile-card">
+          <div class="profile-glow"></div>
+          <div class="avatar">GP</div>
+          <div class="profile-card-content">
+            <p class="small-label">CURRENTLY EXPLORING</p>
+            <h2>Software Development & AI/ML</h2>
+            <p>Python · Java · C/C++ · React · FastAPI · OpenCV · TensorFlow</p>
+          </div>
+          <div class="floating-chip chip-one">✦ Problem Solver</div>
+          <div class="floating-chip chip-two">⌘ Developer</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">ABOUT ME</span>
+        <h2>Focused on learning, building and improving.</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <span class="card-number">01</span>
+          <h3>Academic Journey</h3>
+          <p>
+            Currently pursuing Bachelor of Engineering in Computer Science and Engineering at
+            RV Institute of Technology and Management, Bengaluru.
+          </p>
+        </article>
+
+        <article class="glass-card reveal">
+          <span class="card-number">02</span>
+          <h3>Technical Focus</h3>
+          <p>
+            Interested in full-stack development, artificial intelligence, machine learning,
+            computer vision and data-driven applications.
+          </p>
+        </article>
+
+        <article class="glass-card reveal">
+          <span class="card-number">03</span>
+          <h3>Beyond Coding</h3>
+          <p>
+            I enjoy photography, gaming and travelling—interests that help me stay creative,
+            observant and curious.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">SKILLS SNAPSHOT</span>
+        <h2>Technologies I work with.</h2>
+      </div>
+
+      <div class="skill-cloud reveal">
+        <span>Python</span><span>Java</span><span>C</span><span>C++</span>
+        <span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>React</span>
+        <span>FastAPI</span><span>Node.js</span><span>MySQL</span><span>MongoDB</span>
+        <span>TensorFlow</span><span>OpenCV</span><span>YOLO</span><span>Git & GitHub</span>
+      </div>
+    </section>
+
+    <section class="cta-section container reveal">
+      <div>
+        <span class="eyebrow">ASSIGNMENT WEBSITE</span>
+        <h2>Explore my complete Resume and Bio-data.</h2>
+      </div>
+      <div class="cta-buttons">
+        <a class="btn primary" href="resume.html">Open Resume</a>
+        <a class="btn secondary" href="biodata.html">View Bio-data</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> G M Preetham. Academic Portfolio Website.</p>
+      <p>Designed with HTML, CSS, JavaScript & jQuery.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

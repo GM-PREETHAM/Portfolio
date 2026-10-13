@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | G M Preetham</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-ring"></div></div>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html"><span class="brand-mark">GM</span><span>Preetham</span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="resume.html">Resume</a><a href="biodata.html">Bio-data</a>
+        <a href="projects.html">Projects</a><a class="active" href="contact.html">Contact</a>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </nav>
+  </header>
+
+  <main class="container inner-page">
+    <section class="page-hero reveal">
+      <div>
+        <span class="eyebrow">GET IN TOUCH</span>
+        <h1>Contact</h1>
+        <p>A clean JavaScript-validated contact form included as part of the assignment website.</p>
+      </div>
+    </section>
+
+    <section class="contact-layout">
+      <div class="contact-copy reveal">
+        <span class="eyebrow">HELLO</span>
+        <h2>Let’s connect.</h2>
+        <p>
+          This form demonstrates HTML form elements, CSS styling and JavaScript validation.
+          For this static academic website, successful submission displays an on-page message.
+        </p>
+
+        <div class="contact-detail">
+          <span>✉</span>
+          <div><small>Email</small><strong>preethamgm010@gmail.com</strong></div>
+        </div>
+        <div class="contact-detail">
+          <span>⌖</span>
+          <div><small>Location</small><strong>Bengaluru, Karnataka</strong></div>
+        </div>
+        <div class="contact-detail">
+          <span>⌘</span>
+          <div><small>Course</small><strong>Computer Science & Engineering</strong></div>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form reveal" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name">
+            <small class="error"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="name@example.com">
+            <small class="error"></small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Enter subject">
+          <small class="error"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Write your message..."></textarea>
+          <small class="error"></small>
+        </div>
+
+        <button class="btn primary full" type="submit">Send Message</button>
+        <div id="successMessage" class="success-message">
+          ✓ Form validated successfully. Thank you!
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> G M Preetham.</p><p>Contact Page</p>
+    </div>
+  </footer>
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | G M Preetham</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-ring"></div></div>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html"><span class="brand-mark">GM</span><span>Preetham</span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a class="active" href="resume.html">Resume</a>
+        <a href="biodata.html">Bio-data</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </nav>
+  </header>
+
+  <main class="container inner-page">
+    <section class="page-hero reveal">
+      <div>
+        <span class="eyebrow">PROFESSIONAL PROFILE</span>
+        <h1>Resume</h1>
+        <p>A concise overview of my education, skills, projects and career interests.</p>
+      </div>
+      <button class="btn primary print-btn" onclick="window.print()">Print Resume</button>
+    </section>
+
+    <section class="resume-sheet reveal">
+      <div class="resume-top">
+        <div>
+          <h2>G M PREETHAM</h2>
+          <p class="resume-role">Computer Science Engineering Student</p>
+          <p>RV Institute of Technology and Management, Bengaluru</p>
+        </div>
+        <div class="resume-contact">
+          <a href="mailto:preethamgm010@gmail.com">preethamgm010@gmail.com</a>
+          <span>Bengaluru, Karnataka</span>
+          <span>Expected Graduation: 2028</span>
+        </div>
+      </div>
+
+      <div class="resume-layout">
+        <aside class="resume-sidebar">
+          <div class="resume-section">
+            <h3>Technical Skills</h3>
+            <div class="resume-tags">
+              <span>Python</span><span>Java</span><span>C</span><span>C++</span>
+              <span>JavaScript</span><span>HTML</span><span>CSS</span><span>React</span>
+              <span>Node.js</span><span>Express</span><span>FastAPI</span>
+              <span>MySQL</span><span>MongoDB</span><span>PostgreSQL</span>
+              <span>TensorFlow</span><span>OpenCV</span><span>YOLO</span>
+              <span>Git</span><span>Docker</span>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h3>Areas of Interest</h3>
+            <ul class="clean-list">
+              <li>Software Development</li>
+              <li>Artificial Intelligence</li>
+              <li>Machine Learning</li>
+              <li>Computer Vision</li>
+              <li>Full-Stack Development</li>
+              <li>Data Science</li>
+            </ul>
+          </div>
+
+          <div class="resume-section">
+            <h3>Strengths</h3>
+            <ul class="clean-list">
+              <li>Problem solving</li>
+              <li>Quick learner</li>
+              <li>Team collaboration</li>
+              <li>Project-oriented mindset</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="resume-main">
+          <div class="resume-section">
+            <h3>Career Objective</h3>
+            <p>
+              Motivated Computer Science Engineering student seeking opportunities to apply
+              programming, software development and AI/ML knowledge to practical problems while
+              continuously strengthening technical and professional skills.
+            </p>
+          </div>
+
+          <div class="resume-section">
+            <h3>Education</h3>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <div class="timeline-title">
+                  <strong>Bachelor of Engineering — Computer Science & Engineering</strong>
+                  <span>2025 – 2028</span>
+                </div>
+                <p>RV Institute of Technology and Management, Bengaluru</p>
+                <small>Currently: 3rd Year, 5th Semester</small>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <div class="timeline-title">
+                  <strong>Diploma — Computer Science & Engineering</strong>
+                  <span>Completed</span>
+                </div>
+                <p>S.J.M. Polytechnic, Chitradurga</p>
+                <small>Specialisation: Artificial Intelligence & Machine Learning</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h3>Academic / Technical Projects</h3>
+            <div class="project-resume">
+              <div class="project-resume-head">
+                <strong>Plant Disease Detection</strong>
+                <span>TensorFlow · Streamlit</span>
+              </div>
+              <p>Built an image-based plant disease recognition system using deep learning for identifying crop diseases.</p>
+            </div>
+
+            <div class="project-resume">
+              <div class="project-resume-head">
+                <strong>Gender & Age Detection</strong>
+                <span>OpenCV · Deep Learning</span>
+              </div>
+              <p>Developed a real-time computer vision application to estimate gender and age groups from images and webcam input.</p>
+            </div>
+
+            <div class="project-resume">
+              <div class="project-resume-head">
+                <strong>Flight Booking System</strong>
+                <span>Web Application</span>
+              </div>
+              <p>Designed a structured flight booking system as a practical database and web-development project.</p>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h3>Tools & Platforms</h3>
+            <p>Git, GitHub, VS Code, Docker, REST APIs and modern web-development workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> G M Preetham.</p><p>Resume Page</p>
+    </div>
+  </footer>
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

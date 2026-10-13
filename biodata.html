@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio-data | G M Preetham</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-ring"></div></div>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html"><span class="brand-mark">GM</span><span>Preetham</span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="resume.html">Resume</a>
+        <a class="active" href="biodata.html">Bio-data</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </nav>
+  </header>
+
+  <main class="container inner-page">
+    <section class="page-hero reveal">
+      <div>
+        <span class="eyebrow">PERSONAL PROFILE</span>
+        <h1>Bio-data</h1>
+        <p>Academic, technical and personal details presented in a clean structured format.</p>
+      </div>
+    </section>
+
+    <section class="bio-layout">
+      <aside class="bio-profile-card reveal">
+        <div class="bio-avatar">GP</div>
+        <h2>G M Preetham</h2>
+        <p>Computer Science & Engineering</p>
+        <div class="status-pill"><span></span> Student · Bengaluru</div>
+        <div class="bio-quick">
+          <a href="mailto:preethamgm010@gmail.com">✉ Email Me</a>
+          <a href="projects.html">⌘ View Projects</a>
+        </div>
+      </aside>
+
+      <div class="bio-details reveal">
+        <div class="bio-section">
+          <div class="bio-section-title">
+            <span>01</span><h3>Personal Details</h3>
+          </div>
+          <div class="bio-grid">
+            <div><small>Full Name</small><strong>G M Preetham</strong></div>
+            <div><small>Location</small><strong>Bengaluru, Karnataka</strong></div>
+            <div><small>Email</small><strong>preethamgm010@gmail.com</strong></div>
+            <div><small>Nationality</small><strong>Indian</strong></div>
+          </div>
+        </div>
+
+        <div class="bio-section">
+          <div class="bio-section-title">
+            <span>02</span><h3>Academic Details</h3>
+          </div>
+          <div class="bio-grid">
+            <div><small>Current Course</small><strong>B.E. in CSE</strong></div>
+            <div><small>Year / Semester</small><strong>3rd Year / 5th Semester</strong></div>
+            <div><small>Institution</small><strong>RVITM, Bengaluru</strong></div>
+            <div><small>Graduation Year</small><strong>2028</strong></div>
+          </div>
+        </div>
+
+        <div class="bio-section">
+          <div class="bio-section-title">
+            <span>03</span><h3>Technical Profile</h3>
+          </div>
+          <div class="bio-grid">
+            <div><small>Core Languages</small><strong>Python, Java, C, C++</strong></div>
+            <div><small>Web</small><strong>HTML, CSS, JavaScript, React</strong></div>
+            <div><small>AI / ML</small><strong>TensorFlow, OpenCV, YOLO</strong></div>
+            <div><small>Databases</small><strong>MySQL, MongoDB, PostgreSQL</strong></div>
+          </div>
+        </div>
+
+        <div class="bio-section">
+          <div class="bio-section-title">
+            <span>04</span><h3>Interests & Hobbies</h3>
+          </div>
+          <div class="bio-grid">
+            <div><small>Primary Interest</small><strong>Coding</strong></div>
+            <div><small>Hobby</small><strong>Photography</strong></div>
+            <div><small>Hobby</small><strong>Gaming</strong></div>
+            <div><small>Hobby</small><strong>Travelling</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> G M Preetham.</p><p>Bio-data Page</p>
+    </div>
+  </footer>
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
